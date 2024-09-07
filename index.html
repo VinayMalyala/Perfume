@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfume</title>
+
+  <!-- custom css link  -->
+  <link href="./output.css" rel="stylesheet">
+
+  <!-- Favicon -->
+   <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+   <!-- remix icon  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- header  -->
+  <header id="navbar" class="bg-bodyColor fixed w-full top-0 left-0 z-50">
+    <nav class="container flex justify-between items-center h-16 sm:h-20">
+      <div class="font-DancingScript text-2xl sm:text-5xl">perfume.</div>
+
+      <div id="nav-menu" class="bg-cardColor absolute top-0 left-[-100%] min-h-[80vh] w-full flex items-center justify-center duration-300 md:static md:min-h-fit md:w-auto md:bg-transparent">
+        <ul class="flex md:flex-row flex-col items-center gap-8">
+          <li><a href="#" class="nav-link active">Home</a></li>
+          <li><a href="#" class="nav-link">Collection</a></li>
+          <li><a href="#" class="nav-link">Popular</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </div>
+
+      <div class="text-xl sm:text-3xl cursor-pointer z-50 md:hidden">
+        <i class="ri-menu-2-line" id="hamburger"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main js  -->
+   <script src="main.js"></script>
+</body>
+</html>
