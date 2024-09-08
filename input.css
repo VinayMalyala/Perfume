@@ -28,3 +28,15 @@ section{
 .btn:hover{
     @apply bg-titleColor;
 }
+
+.title{
+    @apply text-4xl font-bold inline-block font-DancingScript;
+}
+
+.subtitle{
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+}
+
+.cardtitle{
+    @apply text-2xl md:text-3xl font-bold;
+}

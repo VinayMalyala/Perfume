@@ -36,30 +36,81 @@
   </header>
 
   <!-- hero section  -->
-   <div id="hero" class="container relative mt-16 sm:mt-20 py-10 xl:min-h-screen">
-    <div class="absolute top-[40%] sm:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 md:top-[45%] lg:top-1/2">
-      <p class="text-[124px] leading-none sm:text-[170px] font-black text-[#241826] opacity-50">
-        FRA <br>
-        GRA <br>
-        NCE
-      </p>
+  <div id="hero" class="container relative mt-16 sm:mt-20 py-10 xl:min-h-screen">
+  <div class="absolute top-[40%] sm:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -z-10 md:top-[45%] lg:top-1/2">
+    <p class="text-[124px] leading-none sm:text-[170px] font-black text-[#241826] opacity-50">
+      FRA <br>
+      GRA <br>
+      NCE
+    </p>
+  </div>
+
+  <div class="flex flex-col items-center">
+    <div class="text-[45px] font-bold uppercase sm:text-[70px] md:text-[90px] lg:text-[120px] xl:text-[180px]">Celestia.</div>
+
+    <div class="relative -mt-16 sm:-mt-24 md:-mt-32 xl:-mt-52">
+      <img src="assets/images/hero.png" alt="hero_image" class="w-full mx-auto md:w-1/2 lg:w-[42%] xl:w-1/2">
+      <p class="absolute bottom-[20%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full text-center text-4xl font-bold font-DancingScript xl:text-[65px]">made of stardust</p>
     </div>
 
-    <div class="flex flex-col items-center">
-      <div class="text-[45px] font-bold uppercase sm:text-[70px] md:text-[90px] lg:text-[120px] xl:text-[180px]">Celestia.</div>
+    <div class="flex flex-col items-center w-full gap-5 md:justify-between md:gap-1 md:flex-row">
+      <p class="max-w-80">Celestia is a unique perfume, drawn from the rarest meteorites, and is the only one to be sourced from the stars.</p>
+      <button class="btn">TRY NOW!</button>
+      <p class="max-w-80 md:text-right">Celestia is a unique perfume, drawn from the rarest meteorites, and is the only one to be sourced from the stars.</p>
+    </div>
+  </div>
+  </div>
 
-      <div class="relative -mt-16 sm:-mt-24 md:-mt-32 xl:-mt-52">
-        <img src="assets/images/hero.png" alt="hero_image" class="w-full mx-auto md:w-1/2 lg:w-[42%] xl:w-1/2">
-        <p class="absolute bottom-[20%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full text-center text-4xl font-bold font-DancingScript xl:text-[65px]">made of stardust</p>
+  <!-- collection section  -->
+  <section id="collection" class="bg-sectionColor">
+    <div class="container">
+      <div class="flex flex-col items-center gap-3 text-center mb-20 md:mb-28">
+        <h2 class="title text-titleColor">Collection</h2>
+        <p class="subtitle max-w-2xl">Things you need to know</p>
       </div>
 
-      <div class="flex flex-col items-center w-full gap-5 md:justify-between md:gap-1 md:flex-row">
-        <p class="max-w-80">Celestia is a unique perfume, drawn from the rarest meteorites, and is the only one to be sourced from the stars.</p>
-        <button class="btn">TRY NOW!</button>
-        <p class="max-w-80 md:text-right">Celestia is a unique perfume, drawn from the rarest meteorites, and is the only one to be sourced from the stars.</p>
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-8">
+        <!-- card 1 -->
+          <div class="relative bg-cardColor rounded-xl px-10 py-20">
+          <img src="assets/images/collection-1.png" alt="collection_image" class="w-40 absolute -top-20 left-0">
+          <div class="space-y-5">
+            <h2 class="cardtitle">Real Stardust</h2>
+            <p>We've sourced the finest meteorites and have extracted the very essence of the universe.</p>
+          </div>
+
+          <div class="bg-titleColor w-16 h-16 rounded-full flex items-center justify-center text-2xl border-4 border-sectionColor absolute -right-3 -bottom-3">
+            <i class="ri-arrow-right-line hover:translate-x-1 duration-300"></i>
+          </div>
+          </div>
+
+          <!-- card 2 -->
+          <div class="relative bg-cardColor rounded-xl px-10 py-20">
+          <img src="assets/images/collection-2.png" alt="collection_image" class="w-40 absolute -top-20 left-0">
+          <div class="space-y-5">
+            <h2 class="cardtitle">Real Stardust</h2>
+            <p>We've sourced the finest meteorites and have extracted the very essence of the universe.</p>
+          </div>
+
+          <div class="bg-titleColor w-16 h-16 rounded-full flex items-center justify-center text-2xl border-4 border-sectionColor absolute -right-3 -bottom-3">
+            <i class="ri-arrow-right-line hover:translate-x-1 duration-300"></i>
+          </div>
+          </div>
+
+          <!-- card 3 -->
+          <div class="relative bg-cardColor rounded-xl px-10 py-20">
+          <img src="assets/images/collection-3.png" alt="collection_image" class="w-40 absolute -top-20 left-0">
+          <div class="space-y-5">
+            <h2 class="cardtitle">Real Stardust</h2>
+            <p>We've sourced the finest meteorites and have extracted the very essence of the universe.</p>
+          </div>
+
+          <div class="bg-titleColor w-16 h-16 rounded-full flex items-center justify-center text-2xl border-4 border-sectionColor absolute -right-3 -bottom-3">
+            <i class="ri-arrow-right-line hover:translate-x-1 duration-300"></i>
+          </div>
+          </div>
       </div>
     </div>
-   </div>
+  </section>
 
   <!-- main js  -->
    <script src="main.js"></script>
