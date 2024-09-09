@@ -22,10 +22,14 @@ section{
 }
 
 .btn{
-    @apply border text-lg lg:text-xl font-bold px-5 py-3 duration-300;
+    @apply border text-lg lg:text-2xl font-bold px-5 py-3 duration-300;
 }
 
-.btn:hover{
+.btn2{
+    @apply border text-lg lg:text-xl font-bold px-3 py-2 duration-300;
+}
+
+.btn:hover, .btn2:hover{
     @apply bg-titleColor;
 }
 
@@ -39,4 +43,8 @@ section{
 
 .cardtitle{
     @apply text-2xl md:text-3xl font-bold;
+}
+
+.cardtitle-2{
+    @apply text-2xl md:text-2xl xl:text-3xl font-bold;
 }
