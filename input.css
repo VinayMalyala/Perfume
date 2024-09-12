@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    @apply scroll-smooth overflow-x-hidden;
+}
+
 body{
     @apply bg-bodyColor font-Jost text-textColor tracking-wider overflow-x-hidden;
 }
