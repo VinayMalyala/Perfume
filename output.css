@@ -602,6 +602,10 @@ video {
   position: relative;
 }
 
+.-bottom-1\/2{
+  bottom: -50%;
+}
+
 .-bottom-3{
   bottom: -0.75rem;
 }
@@ -648,18 +652,6 @@ video {
 
 .top-\[40\%\]{
   top: 40%;
-}
-
-.-bottom-10{
-  bottom: -2.5rem;
-}
-
-.-bottom-1\/2{
-  bottom: -50%;
-}
-
-.-top-1\/2{
-  top: -50%;
 }
 
 .-z-10{
@@ -1023,6 +1015,11 @@ video {
 .text-titleColor{
   --tw-text-opacity: 1;
   color: hsl(300 100% 23% / var(--tw-text-opacity));
+}
+
+.text-orange-500{
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
 .opacity-50{
