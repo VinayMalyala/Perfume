@@ -52,3 +52,20 @@ const activeLink = () => {
 }
 window.addEventListener("scroll", activeLink);
 
+// scroll reveal animation 
+const sr = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 2500,
+    delay: 300,
+    reset: true,
+});
+
+sr.reveal(`.hero-big-text, .collection_top, .popular_top, .about_top, .footer_content`);
+sr.reveal(`.hero_image`, {origin: "bottom", delay: 500});
+sr.reveal(`.hero_content, .popular_card-3`, {origin: "bottom", delay: 1000});
+
+sr.reveal(`.collection_card, .banner_content`, {interval: 100});
+
+sr.reveal(`.popular_card-1, .about_image`, {origin: "left"});
+sr.reveal(`.popular_card-2, .about_content`, {origin: "right"});
