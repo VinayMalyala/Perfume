@@ -51,6 +51,7 @@ The Perfume website offers a clean, minimalist design to highlight different per
 
 - To view the site, simply open `index.html` in your browser.
 - The website is fully responsive and works across all devices.
+- For a live demo, visit: [Perume](https://vinaymalyala-perfume.netlify.app)
 
 ## Contributing
 
